@@ -13,7 +13,9 @@
       "type": "cutter",
       "action": "remove",
       "args": {
-        "wantedList": ["cn"],
+        "wantedList": [
+          "cn"
+        ],
         "onlyIPType": "ipv4"
       }
     },
@@ -93,7 +95,10 @@
       "action": "output",
       "args": {
         "outputName": "geoip-only-cn-private.dat",
-        "wantedList": ["cn", "private"]
+        "wantedList": [
+          "cn",
+          "private"
+        ]
       }
     },
     {
@@ -109,7 +114,23 @@
           "google",
           "netflix",
           "telegram",
-          "twitter"
+          "twitter",
+          "github",
+          "valve",
+          "chinatelecom",
+          "chinamobile",
+          "chinaunicom",
+          "cernet",
+          "cstnet",
+          "google-cn",
+          "hkt",
+          "hgc",
+          "hkbn",
+          "fc2",
+          "yahoo-jp",
+          "vultr",
+          "linode",
+          "digitalocean"
         ]
       }
     },
@@ -118,7 +139,10 @@
       "action": "output",
       "args": {
         "oneFilePerList": true,
-        "wantedList": ["cn", "private"]
+        "wantedList": [
+          "cn",
+          "private"
+        ]
       }
     },
     {
@@ -136,7 +160,23 @@
           "google",
           "netflix",
           "telegram",
-          "twitter"
+          "twitter",
+          "github",
+          "valve",
+          "chinatelecom",
+          "chinamobile",
+          "chinaunicom",
+          "cernet",
+          "cstnet",
+          "google-cn",
+          "hkt",
+          "hgc",
+          "hkbn",
+          "fc2",
+          "yahoo-jp",
+          "vultr",
+          "linode",
+          "digitalocean"
         ]
       }
     },
@@ -145,7 +185,10 @@
       "action": "output",
       "args": {
         "outputName": "Country-only-cn-private.mmdb",
-        "wantedList": ["cn", "private"]
+        "wantedList": [
+          "cn",
+          "private"
+        ]
       }
     },
     {
@@ -161,7 +204,23 @@
           "google",
           "netflix",
           "telegram",
-          "twitter"
+          "twitter",
+          "github",
+          "valve",
+          "chinatelecom",
+          "chinamobile",
+          "chinaunicom",
+          "cernet",
+          "cstnet",
+          "google-cn",
+          "hkt",
+          "hgc",
+          "hkbn",
+          "fc2",
+          "yahoo-jp",
+          "vultr",
+          "linode",
+          "digitalocean"
         ]
       }
     },
